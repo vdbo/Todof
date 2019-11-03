@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:scoped_model/scoped_model.dart';
-import 'package:todof/model/AppState.dart';
-import 'package:todof/screen/ToDoListScreen.dart';
+import 'package:todof/state/AppState.dart';
+import 'package:todof/ui/screen/ToDoListScreen.dart';
 
 void main() => runApp(ScopedModel<AppState>(
     model: AppState(),
